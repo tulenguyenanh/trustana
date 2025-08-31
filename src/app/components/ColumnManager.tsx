@@ -152,7 +152,7 @@ export const ColumnManager: React.FC<ColumnManagerProps> = ({
 
       {filteredColumns.length === 0 && searchTerm && (
         <div className="text-center py-8 text-gray-500">
-          <p>No columns found matching "{searchTerm}"</p>
+          <p>No columns found matching &ldquot;{searchTerm}&rdquo;</p>
         </div>
       )}
     </div>
